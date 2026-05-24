@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://fitfolio-frontend.vercel.app" })
 @RequestMapping("/admin")
 @RestController
 public class admin_controller {
