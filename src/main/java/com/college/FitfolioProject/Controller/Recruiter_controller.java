@@ -155,7 +155,7 @@ public class Recruiter_controller {
 
         message.setText(
                 "Click below link to reset password:\n\n" +
-                        "http://localhost:5173/reset-password/recruiter/" + token
+                        "https://fitfolio-frontend.vercel.app/reset-password/recruiter/" + token
         );
 
         mailSender.send(message);

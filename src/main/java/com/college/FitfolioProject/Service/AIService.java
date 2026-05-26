@@ -72,7 +72,7 @@ public class AIService {
 
             headers.add(
                     "HTTP-Referer",
-                    "http://localhost:5173"
+                    "https://fitfolio-frontend.vercel.app"
             );
 
             headers.add(
