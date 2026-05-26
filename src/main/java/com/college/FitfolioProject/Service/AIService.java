@@ -17,7 +17,7 @@ import java.util.Map;
 @Service
 public class AIService {
 
-    @Value("${openrouter.api.key}")
+    @Value("${OPENROUTER_API_KEY}")
     private String openRouterApiKey;
 
     private final String OPENROUTER_URL =
