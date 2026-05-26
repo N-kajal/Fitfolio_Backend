@@ -141,10 +141,8 @@ public class AIService {
                     .asText();
 
         } catch (Exception e) {
-
             e.printStackTrace();
-
-            return "AI service is temporarily busy. Please wait a few seconds and try again.";
+            return "ERROR: " + e.getMessage();
         }
     }
 }
