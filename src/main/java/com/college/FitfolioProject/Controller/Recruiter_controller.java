@@ -21,7 +21,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-@CrossOrigin(origins = {"http://localhost:5173", "https://fitfolio-frontend.vercel.app" })
+@CrossOrigin(originPatterns = {"http://localhost:5173", "https://*.vercel.app"})
 @RequestMapping("/Recruiter")
 @RestController
 public class Recruiter_controller {

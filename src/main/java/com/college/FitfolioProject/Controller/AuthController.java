@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins ={"http://localhost:5173", "https://fitfolio-frontend.vercel.app" })
+@CrossOrigin(originPatterns = {"http://localhost:5173", "https://*.vercel.app"})
 public class AuthController {
 
     @Autowired

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-@CrossOrigin(origins = {"http://localhost:5173", "https://fitfolio-frontend.vercel.app" })
+@CrossOrigin(originPatterns = {"http://localhost:5173", "https://*.vercel.app"})
 @RequestMapping("/jobs")
 @RestController
 public class Job_Controller {
